@@ -4,7 +4,7 @@
 \alias{fiz}
 \title{fiz}
 \usage{
-fiz()
+fiz(b, ...)
 }
 \description{
 fiz
