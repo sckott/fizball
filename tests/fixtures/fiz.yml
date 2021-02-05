@@ -1,0 +1,35 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://httpbin.org/get?key=<<<fiz_key>>>
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      User-Agent: libcurl/7.75.0 r-curl/4.3 crul/1.0.0
+      Accept-Encoding: gzip, deflate
+      Accept: application/json, text/xml, application/xml, */*
+  response:
+    status:
+      status_code: '200'
+      message: OK
+      explanation: Request fulfilled, document follows
+    headers:
+      status: 'HTTP/2 200 '
+      date: Fri, 05 Feb 2021 19:46:59 GMT
+      content-type: application/json
+      content-length: '425'
+      server: gunicorn/19.9.0
+      access-control-allow-origin: '*'
+      access-control-allow-credentials: 'true'
+    body:
+      encoding: UTF-8
+      file: no
+      string: "{\n  \"args\": {\n    \"key\": \"<<<fiz_key>>>\"\n  }, \n  \"headers\":
+        {\n    \"Accept\": \"application/json, text/xml, application/xml, */*\", \n
+        \   \"Accept-Encoding\": \"gzip, deflate\", \n    \"Host\": \"httpbin.org\",
+        \n    \"User-Agent\": \"libcurl/7.75.0 r-curl/4.3 crul/1.0.0\", \n    \"X-Amzn-Trace-Id\":
+        \"Root=1-601da0b3-47b262af1729a6ba0a1d3c24\"\n  }, \n  \"origin\": \"24.21.229.59\",
+        \n  \"url\": \"https://httpbin.org/get?key=<<<fiz_key>>>\"\n}\n"
+  recorded_at: 2021-02-05 19:46:59 GMT
+  recorded_with: vcr/0.6.0, webmockr/0.7.4

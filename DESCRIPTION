@@ -1,0 +1,19 @@
+Package: fizball
+Title: Testing Vcr
+Description: Testing vcr.
+Version: 0.999.23
+License: MIT + file LICENSE
+Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"), email =
+    "a@b.com")
+URL: https://github.com/sckott/fizball
+LazyData: true
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+Imports:
+    crul,
+    jsonlite
+Suggests:
+    testthat,
+    vcr
+RoxygenNote: 7.1.1
