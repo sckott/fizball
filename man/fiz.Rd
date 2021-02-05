@@ -4,7 +4,10 @@
 \alias{fiz}
 \title{fiz}
 \usage{
-fiz(b, ...)
+fiz(b = NULL, ...)
+}
+\arguments{
+\item{b}{a value}
 }
 \description{
 fiz
