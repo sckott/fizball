@@ -8,6 +8,8 @@ fiz(b = NULL, ...)
 }
 \arguments{
 \item{b}{a value}
+
+\item{...}{curl options}
 }
 \description{
 fiz
