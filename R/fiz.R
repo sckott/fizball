@@ -2,4 +2,4 @@
 #' @export
 #' @examples
 #' fiz()
-fiz <- function() fiz_GET()
+fiz <- function(b, ...) fiz_GET(b, ...)
