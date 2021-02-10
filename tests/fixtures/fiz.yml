@@ -25,11 +25,11 @@ http_interactions:
     body:
       encoding: UTF-8
       file: no
-      string: "{\n  \"args\": {\n    \"key\": \"<<<fiz_key>>>\"\n  }, \n  \"headers\":
+      string: '{\n  \"args\": {\n    \"key\": \"<<<fiz_key>>>\"\n  }, \n  \"headers\":
         {\n    \"Accept\": \"application/json, text/xml, application/xml, */*\", \n
         \   \"Accept-Encoding\": \"gzip, deflate\", \n    \"Host\": \"httpbin.org\",
         \n    \"User-Agent\": \"libcurl/7.75.0 r-curl/4.3 crul/1.0.0\", \n    \"X-Amzn-Trace-Id\":
         \"Root=1-601da0b3-47b262af1729a6ba0a1d3c24\"\n  }, \n  \"origin\": \"24.21.229.59\",
-        \n  \"url\": \"https://httpbin.org/get?key=<<<fiz_key>>>\"\n}\n"
+        \n  \"url\": \"https://httpbin.org/get?key=<<<fiz_key>>>\"\n}\n'
   recorded_at: 2021-02-05 19:46:59 GMT
   recorded_with: vcr/0.6.0, webmockr/0.7.4
