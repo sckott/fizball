@@ -1,6 +1,6 @@
 Package: fizball
 Title: Testing Vcr
-Description: Testing vcr.
+Description: Testing vcr and stuff.
 Version: 0.999.23
 License: MIT + file LICENSE
 Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"), email =
