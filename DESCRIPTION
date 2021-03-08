@@ -16,4 +16,7 @@ Imports:
 Suggests:
     testthat,
     vcr
+Remotes:
+    ropensci/vcr,
+    ropensci/webmockr
 RoxygenNote: 7.1.1
